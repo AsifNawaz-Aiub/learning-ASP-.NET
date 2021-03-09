@@ -21,7 +21,7 @@ namespace Ch24ShoppingCartMVC.Controllers
             {
 
                 //CALL THE METHOD GetProductList 
-                var list = order.GetProductsList(); //----was error
+                var list = order.GetProductsList(); 
 
                 //CREATE THE SelectList products
                 products = new SelectList(list, "ProductId", "Name", id);
